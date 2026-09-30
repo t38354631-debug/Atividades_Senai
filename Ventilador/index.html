@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Ventilador</title>
+</head>
+<body>
+
+    
+
+     <div class = "container">
+
+           <h1>Controle de Ventilador</h1>
+
+            <div id = "ventilador" class="ventilador">
+
+                <div id = "helices">
+                    <div class = "helice helice1"></div>
+                    <div class = "helice helice2"></div>
+                    <div class = "helice helice3"></div> 
+                </div>  
+
+             
+                     <div class = "centro"></div>
+             </div>
+
+    <p id = "status">Status: Desligado!</p>
+
+        <button id = "funcaoLigar">ligar/desligar</button>
+
+        <h1>Velocidade</h1>
+
+            <div class = "Velocidade" id = "veloci">
+                <button id = "b1" type = "button" onclick = "mudarVelocidade(1)">01</button>
+                <button id = "b2" type = "button" onclick = "mudarVelocidade(2)">02</button>
+                <button id = "b3" type = "button" onclick = "mudarVelocidade(3)">03</button>
+
+            </div>
+
+            </div>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src = "script.js"></script>
+    
+</body>
+</html>
